@@ -11,7 +11,7 @@ const { RSI, EMA, MACD, ATR } = require('technicalindicators');
 
 const TELEGRAM_BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'; // yahan apna token daalein
 
-const bot = new TelegramBot('7739855919:AAF2JCiwZW5bXkLAcrUx6HPCMCcgE8GJ35c', { polling: true });
+const bot = new TelegramBot('8003756443:AAHOP678U2KdAiTuVYQZVQ2DsYnT2Oq4PnE', { polling: true });
 
 // === CONFIG ===
 const SYMBOL = 'BTCUSDT';
@@ -188,3 +188,8 @@ bot.onText(/\/start/, (msg) => {
 console.log("🚀 Crypto Signal Bot started...");
 sendSignal(); // Initial run
 setInterval(sendSignal, 5 * 60 * 1000); // Every 5 minutes
+
+
+
+
+
