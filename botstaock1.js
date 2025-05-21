@@ -3,8 +3,8 @@
 // const TelegramBot = require('node-telegram-bot-api');
 // const { RSI, EMA, SMA, MACD } = require('technicalindicators');
 
-// // Setup
-// const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
+// // Setu
+// const bot = new TelegramBot(process.env.'7739855919:AAF2JCiwZW5bXkLAcrUx6HPCMCcgE8GJ35c', { polling: true });
 // const SYMBOLS = ['ETHUSDT']; // You can add BTCUSDT, etc.
 // const USERS = [];
 // const INTERVAL_SHORT = '1m';
