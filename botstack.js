@@ -2875,7 +2875,7 @@ const VOLUME_SMA_PERIOD = 20;
 const EMA_1H_PERIOD = 200;
 
 // Initialize bot
-const bot = new TelegramBot(TELEGRAM_BOT_TOKEN, { polling: true });
+const bot = new TelegramBot('7739855919:AAF2JCiwZW5bXkLAcrUx6HPCMCcgE8GJ35c', { polling: true });
 let USER_CHAT_IDS = [];
 let activeTrades = {};  // { chatId: { symbol: { signal, entry, target, stoploss } } }
 
