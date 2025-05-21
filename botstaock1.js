@@ -4,7 +4,7 @@
 // const { RSI, EMA, SMA, MACD } = require('technicalindicators');
 
 // // Setu
-// const bot = new TelegramBot(process.env.'7739855919:AAF2JCiwZW5bXkLAcrUx6HPCMCcgE8GJ35c', { polling: true });
+// const bot = new TelegramBot('7739855919:AAF2JCiwZW5bXkLAcrUx6HPCMCcgE8GJ35c', { polling: true });
 // const SYMBOLS = ['ETHUSDT']; // You can add BTCUSDT, etc.
 // const USERS = [];
 // const INTERVAL_SHORT = '1m';
